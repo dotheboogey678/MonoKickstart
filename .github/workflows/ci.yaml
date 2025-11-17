@@ -1,4 +1,4 @@
-name: CI
+name: CII
 on: [push]
 jobs:
   linux:
@@ -304,4 +304,5 @@ jobs:
        uses: actions/upload-artifact@v4
        with:
            name: macOS-universal-MonoPosixHelper
+
            path: libMonoPosixHelper.dylib
